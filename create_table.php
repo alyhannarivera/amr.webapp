@@ -14,7 +14,7 @@
 		$statement = 
 		"CREATE TABLE sensor_data(
 		ID VARCHAR(5) NOT NULL,
-		Value DECIMAL(10,2) NOT NULL,
+		Value VARCHAR(8) NOT NULL,
 		Date SMALLDATETIME NOT NULL,
 		Status VARCHAR(8) NOT NULL)";
 		
